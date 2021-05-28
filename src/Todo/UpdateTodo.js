@@ -39,7 +39,7 @@ function UpdateTodo({index, onCreate, onEdit, text}) {
     return (
         <form style={style} onSubmit={submitHandler} autoComplete="off">
             <TextField {...input.bind} id="standard-basic" margin="none" fullWidth/>
-            <IconButton color="primary" aria-label="add to shopping cart" type="submit">
+            <IconButton color="primary" aria-label="add todo" type="submit">
                 <DoneIcon/>
             </IconButton>
         </form>
